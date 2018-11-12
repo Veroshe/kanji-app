@@ -1,0 +1,11 @@
+.examples{
+    padding: 0 1.5rem 1rem;
+}
+.singleExample{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.exampleAudio{
+    padding: 0.5rem 0 0.5rem 1rem;
+}

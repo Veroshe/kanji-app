@@ -1,0 +1,36 @@
+#root{
+  background: url(../img/back.png) no-repeat center center fixed;
+  background-size: cover;
+}
+.app {
+  padding: 2rem;
+  margin: 0;
+  height: 100%;
+  width: auto;
+  font-family: Helvetica, sans-serif;
+}
+.appHeader {
+  min-height: 10vh;
+  width: 100%;
+  font-size: 1.2rem;
+  color: #7B311A;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.appHeader > h1{
+  margin: 0 0 1rem;
+}
+.noScroll{
+  overflow: hidden;
+
+}
+@media screen and (min-width: 768px){
+  .appHeader{
+      text-align: left;
+  }
+}
+@media screen and (min-width: 2560px){
+  .appHeader > h1{
+      font-size: 5rem
+  }
+}

@@ -1,0 +1,46 @@
+.listKanjiContainer{
+    background-color: #CDCAC5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 7rem;
+}
+.listKanjiContainer:hover{
+    background-color: #B69C8E;
+}
+.listKanjiContainer a{
+    text-decoration: none;
+}
+.listKanjiName{
+    color:#853728;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+}
+.listKanjiStrokes{
+    color: #38200F;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px){
+    .listKanjiContainer{
+        padding: 1.2rem;
+        width: 7rem;
+    }
+    .listKanjiName{
+        font-size: 2rem;
+    }
+    .listKanjiStrokes{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .listKanjiContainer{
+        width: 20%;
+    }
+}
